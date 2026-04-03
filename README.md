@@ -5,7 +5,12 @@
 ## ✨ Concept
 
 A warm, illustrated todo app featuring a character living in a cozy room.  
-Work through your tasks, and when you're done, watch them stretch and head to bed. 🌙
+Add up to 5 tasks for the day, check them off one by one, and watch your character
+stretch and head to bed when everything is done. 🌙
+
+The app resets every midnight based on your local time — ready for a new day.
+
+Responsive design: full-screen on mobile, centered widget on desktop.
 
 ## 🛠 Tech Stack
 
@@ -17,18 +22,23 @@ Work through your tasks, and when you're done, watch them stretch and head to be
 ## 🗺 Features
 
 ### MVP
-- [ ] Todo CRUD
+- [ ] Todo CRUD (up to 5 tasks)
 - [ ] Todo check / complete
-- [ ] Character animation (working → done)
+- [ ] Auto reset at midnight (based on user's local time)
+- [ ] Character animation (working → stretch → go to bed)
+- [ ] Responsive layout (mobile full-screen / desktop centered)
 
 ### Phase 2
-- [ ] Window scene (time of day + weather)
-- [ ] Calendar history
+- [ ] Window scene that changes by time of day and weather
+- [ ] Calendar view to track completed days
 
 ### Phase 3
 - [ ] Login / Auth
-- [ ] Room growth system
+- [ ] Room growth system (decorations unlock as streak grows)
 - [ ] Recurring todos
+
+### Phase 4
+- [ ] Ambient sounds (keyboard typing, rain, etc.)
 
 ## 📝 Dev Log
 
